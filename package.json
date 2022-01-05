@@ -1,0 +1,22 @@
+{
+  "name": "restapi-analysis-chain-crud",
+  "version": "0.0.1",
+  "description": "Analysis Chain",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^9.1.3",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Brayan Esteves",
+  "license": "MIT"
+}
